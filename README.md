@@ -2,7 +2,7 @@
 
 A 2D, top-down shooter in a constrained area, similar to Amorphous+. Created in MonoGame; moddable in Javascript, via ClearScript; data-driven for easy editing.
 
-# Rough Notes
+# Brainstorm / Rough Notes
 
 AXIOMS:
 - Fun and interesting
@@ -35,3 +35,14 @@ EDUCATIONAL VALUE
 - Science: weapons are based on real tech (lasers, rockets, etc.)
 - Energy: a bit about heat vs. output, and kinetic vs. solar energy
 
+LEVELS OF MODDING
+- Enemies are reprogrammable: all enemies code live in JS
+- Weapons are reprogrammable: all weapons code lives in JS
+- Utilities, mods, etc. are reprogrammable: all code lives in JS
+- Players can create a new (whatever) type by adding JS files, images, etc.
+- Players have some way to repackage up XNB files with new/changed assets
+
+MILESTONES
+- Prove game with MVP: a few weapons and enemies. Is it fun?
+- Convert everything to JS
+- Mod everything.
