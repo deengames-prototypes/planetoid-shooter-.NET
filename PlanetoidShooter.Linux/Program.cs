@@ -29,7 +29,7 @@ namespace PlanetoidShooter.Linux
 
 		internal static void RunGame ()
 		{
-			game = new Game1 ();
+            game = new Game1();
 			game.Run ();
 		}
 
