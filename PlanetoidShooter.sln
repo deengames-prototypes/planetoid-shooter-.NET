@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetoidShooter.Linux", "P
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlanetoidShooter.Core", "PlanetoidShooter.Core\PlanetoidShooter.Core.shproj", "{42ADA0BF-138F-420D-926E-D2B11F210313}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nucleus", "nucleus\Nucleus.csproj", "{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,5 +17,9 @@ Global
 		{257E43BD-7BA9-43DF-A0FA-68A4860ECB3B}.Debug|x86.Build.0 = Debug|x86
 		{257E43BD-7BA9-43DF-A0FA-68A4860ECB3B}.Release|x86.ActiveCfg = Release|x86
 		{257E43BD-7BA9-43DF-A0FA-68A4860ECB3B}.Release|x86.Build.0 = Release|x86
+		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
