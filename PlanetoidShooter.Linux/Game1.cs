@@ -17,12 +17,15 @@ namespace PlanetoidShooter.Linux
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
+		Texture2D sprite;
 
 		public Game1 ()
 		{
 			graphics = new GraphicsDeviceManager (this);
 			Content.RootDirectory = "Content";	            
-			graphics.IsFullScreen = true;		
+			graphics.IsFullScreen = false;		
+			graphics.PreferredBackBufferWidth = 960;
+			graphics.PreferredBackBufferHeight = 540;
 		}
 
 		/// <summary>
@@ -47,7 +50,8 @@ namespace PlanetoidShooter.Linux
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch (GraphicsDevice);
 
-			//TODO: use this.Content to load your game content here 
+			//TODO: use this.Content to load your game content here
+			sprite = Content.Load<Texture2D>("Icon.png");
 		}
 
 		/// <summary>
@@ -75,9 +79,12 @@ namespace PlanetoidShooter.Linux
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Draw (GameTime gameTime)
 		{
-			graphics.GraphicsDevice.Clear (Color.CornflowerBlue);
+			graphics.GraphicsDevice.Clear (Color.Black);
 		
 			//TODO: Add your drawing code here
+			spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.NonPremultiplied);
+			spriteBatch.Draw (sprite, Vector2.Zero);
+			spriteBatch.End ();
             
 			base.Draw (gameTime);
 		}
