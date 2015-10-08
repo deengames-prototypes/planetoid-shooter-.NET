@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetoidShooter.Linux", "PlanetoidShooter.Linux\PlanetoidShooter.Linux.csproj", "{257E43BD-7BA9-43DF-A0FA-68A4860ECB3B}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlanetoidShooter.Core", "PlanetoidShooter.Core\PlanetoidShooter.Core.shproj", "{42ADA0BF-138F-420D-926E-D2B11F210313}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nucleus", "nucleus\Nucleus.csproj", "{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetoidShooter.Core", "PlanetoidShooter.Core\PlanetoidShooter.Core.csproj", "{C9F77C64-A245-48D6-954F-9665B6A4EE56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +21,9 @@ Global
 		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Debug|x86.Build.0 = Debug|Any CPU
 		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Release|x86.ActiveCfg = Release|Any CPU
 		{2B93F0C2-03DE-4AAD-8A68-F5C0805AB79C}.Release|x86.Build.0 = Release|Any CPU
+		{C9F77C64-A245-48D6-954F-9665B6A4EE56}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9F77C64-A245-48D6-954F-9665B6A4EE56}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9F77C64-A245-48D6-954F-9665B6A4EE56}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9F77C64-A245-48D6-954F-9665B6A4EE56}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
