@@ -13,6 +13,8 @@ using MonoTouch.UIKit;
 #endif
 #endregion
 
+using PlanetoidShooter.Core; 
+
 namespace PlanetoidShooter.Linux
 {
 	#if __IOS__

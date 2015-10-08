@@ -44,13 +44,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\Content.mgcb" />
     <None Include="packages.config" />
+    <None Include="..\PlanetoidShooter.Core\Content\Content.mgcb">
+      <Link>Content\Content.mgcb</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="OpenTK.dll.config">
@@ -59,9 +60,14 @@
     <Content Include="Tao.Sdl.dll.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Icon.png">
+    <Content Include="..\PlanetoidShooter.Core\Content\Icon.png">
+      <Link>Content\Icon.png</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <Import Project="..\PlanetoidShooter.Core\PlanetoidShooter.Core.projitems" Label="Shared" Condition="Exists('..\PlanetoidShooter.Core\PlanetoidShooter.Core.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
 </Project>

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetoidShooter.Linux", "PlanetoidShooter.Linux\PlanetoidShooter.Linux.csproj", "{257E43BD-7BA9-43DF-A0FA-68A4860ECB3B}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlanetoidShooter.Core", "PlanetoidShooter.Core\PlanetoidShooter.Core.shproj", "{42ADA0BF-138F-420D-926E-D2B11F210313}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86

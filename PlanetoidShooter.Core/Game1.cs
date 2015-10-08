@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Input;
 
 #endregion
 
-namespace PlanetoidShooter.Linux
+namespace PlanetoidShooter.Core
 {
 	/// <summary>
 	/// This is the main type for your game.
