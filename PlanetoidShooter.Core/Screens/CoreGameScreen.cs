@@ -18,7 +18,6 @@ namespace PlanetoidShooter.Core
             base.Initialize();
             int widthInTiles = (int)Math.Ceiling(1d * this.Width / TileWidth);
             int heightInTiles = (int)Math.Ceiling(1d * this.Height / TileHeight);
-            int count = 0;
 
             for (int y = 0; y < heightInTiles; y++)
             {
